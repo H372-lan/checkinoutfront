@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { fetchAllEmployees } from '../Services/attendanceService';
 
-const DailyAttendance = () => {
+const DailyAttendance = () => {  
     const [employees, setEmployees] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
     const [recordsPerPage, setRecordsPerPage] = useState(5); // Default records per page
