@@ -37,4 +37,4 @@ const AttendanceTable = ({ data }) => {
     );
 };
 
-export default AttendanceTable;
+export default AttendanceTable;  
