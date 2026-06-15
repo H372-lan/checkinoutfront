@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AttendanceTable = ({ data }) => {
+const AttendanceTable = ({ data }) => {  
     return (
         <table className="table table-striped">
             <thead>
